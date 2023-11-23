@@ -17,6 +17,7 @@ To work on exercises from a local repository, read the [instructions](setup-git)
 1. [Min and max of 3 values](1/minmax3)
 1. [Guess a number](1/guess5)
 1. [7, 11 and doubles](1/7-11-doubles)
+1. [Squirrel play](1/squirrel-play)
 
 ## Level 2
 
@@ -28,13 +29,15 @@ To work on exercises from a local repository, read the [instructions](setup-git)
 1. [Straight](2/straight)
 1. [Loaded dice](2/loaded-dice)
 1. [Morra](2/morra)
+1. [Sum range](2/sumrange)
+1. [Count zeros of a function](2/countzero)
+1. [Has one](2/has-one)
 
 ## Level 3
 
 1. [Reverse a list](3/rev-list)
 1. [String of list](3/string-of-list)
 1. [Random list](3/rnd-list)
-1. [Count zeros of a function](3/countzero)
 1. [Rotate list](3/rotate-list)
 1. [Consecutive even](3/consecutive-even)
 1. [Enumeration of integers](3/enum-int)
