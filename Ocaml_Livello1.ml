@@ -108,18 +108,33 @@ let minmax3 a b c =
 minmax3 2 3 4;;
 
 
-(* Esercizio 12 -> *)
+(* Esercizio 12 -> Guess a Number *)
 
 let guess5 n = if (n<1 || n>5) then failwith "Errore" else
     (1 + Random.int(5)) |> fun p -> ((if(n=p) then true else false), p);;
 
 guess5 4;;
 
-(* Esercizio 13 -> *)
+(* Esercizio 13 -> 7,11 Doubles *)
 
 let seven_eleven_doubles =
   let d1 = (1 + Random.int(6)) and d2 = (1 + Random.int(6)) in 
   if((d1+d2)=7 || (d1+d2)=11 || (d1=d2)) then (true,d1,d2) else (false, d1,d2);; 
+
+
+(* Esercizio 14 -> Squirrel Play *)
+
+type season = Spring | Summer | Autumn | Winter
+
+let squirrel_play (a:int) (b:season) : bool = match (a,b) with
+(a,b) when b=Summer && (a >= 15 && a <= 35) -> true
+|(a,b) when (a >= 15 && a <= 30) -> true
+| _ -> false
+;;
+
+assert(squirrel_play 18 Winter = true);;
+assert(squirrel_play 32 Spring = false);;
+assert(squirrel_play 32 Summer = true);;
   
   
   
